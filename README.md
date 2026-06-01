@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+🛒 E-Commerce Store
 
-# Run and deploy your AI Studio app
+A full-stack e-commerce web application built with modern web technologies that allows users to browse products, manage a shopping cart, register/login, and place orders seamlessly.
 
-This contains everything you need to run your app locally.
+🚀 Features
+User Registration & Login Authentication
+Product Listings and Product Details
+Shopping Cart Functionality
+Order Processing System
+Responsive Design
+RESTful API Backend
+Database Integration
+🛠️ Tech Stack
+Frontend
+HTML5
+CSS3
+JavaScript
+Vite
+Backend
+Node.js
+Express.js
+Database
+MongoDB
+📂 Project Structure
+src/            Frontend source code
+server/         Backend API code
+public/         Static assets
+db.json         Local database storage
+⚙️ Installation
+Clone the repository
+git clone https://github.com/pramasridevi/E-Commerce_Store.git
+Install dependencies
+npm install
+Configure environment variables
+MONGO_URI=your_mongodb_connection_string
+PORT=3000
+Start the application
+npm run dev
+🎯 Project Goal
 
-View your app in AI Studio: https://ai.studio/apps/d9d950c5-89d5-4196-8767-bac1c7103a82
+This project demonstrates full-stack web development skills including frontend development, backend API creation, database management, authentication, and e-commerce workflows.
 
-## Run Locally
+👩‍💻 Author
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+P. Rama Sridevi
