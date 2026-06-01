@@ -1,0 +1,389 @@
+{
+  "users": [
+    {
+      "id": "admin_1",
+      "name": "Supreme Admin",
+      "email": "admin@ecommerce.com",
+      "password": "$2b$10$8gNmpynelKapEyRhlo798Oi8U7UBGmpQd5iT/afXxnfP17gwonyBC",
+      "role": "admin",
+      "addresses": [
+        {
+          "fullName": "Corporate HQ",
+          "phone": "+14155552671",
+          "street": "1600 Amphitheatre Parkway",
+          "city": "Mountain View",
+          "state": "CA",
+          "zipCode": "94043",
+          "country": "USA",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-05-31T17:49:01.957Z"
+    },
+    {
+      "id": "user_1",
+      "name": "John Customer",
+      "email": "user@ecommerce.com",
+      "password": "$2b$10$8gNmpynelKapEyRhlo798ObvafJiuPn7WCJLrrpmsQChTm5bAOSwS",
+      "role": "user",
+      "addresses": [
+        {
+          "fullName": "John Customer",
+          "phone": "+15104443322",
+          "street": "221B Baker Street",
+          "city": "London",
+          "state": "Greater London",
+          "zipCode": "NW1 6XE",
+          "country": "United Kingdom",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-05-31T17:49:01.959Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "title": "Apple iPhone 15 Pro (128GB, Natural Titanium)",
+      "description": "The iPhone 15 Pro is forged in titanium and features the groundbreaking A17 Pro chip, a customizable Action button, and a more versatile camera system. Its aerospace-grade titanium design is both strong and remarkably light, while its Super Retina XDR display delivers unmatched clarity with variable refresh rates up to 120Hz.",
+      "price": 999,
+      "category": "Electronics",
+      "brand": "Apple",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.8,
+        "count": 124
+      },
+      "reviews": [
+        {
+          "id": "rev_1_1",
+          "userId": "user_mock_1",
+          "userName": "Alex Johnson",
+          "rating": 5,
+          "comment": "Incredible performance and build quality. The titanium finish is gorgeous!",
+          "createdAt": "2026-05-20T10:00:00Z"
+        },
+        {
+          "id": "rev_1_2",
+          "userId": "user_mock_2",
+          "userName": "Maria Santos",
+          "rating": 4,
+          "comment": "Excellent camera system. Battery life is solid but not a massive leap from the 14 Pro.",
+          "createdAt": "2026-05-22T14:30:00Z"
+        }
+      ],
+      "specifications": {
+        "Display": "6.1-inch Super Retina XDR with ProMotion",
+        "Processor": "A17 Pro chip with 6-core GPU",
+        "Main Camera": "48MP Main | 12MP Ultra Wide | 12MP Telephoto",
+        "Battery": "Up to 23 hours video playback",
+        "Connector": "USB-C (supports USB 3)"
+      },
+      "isBestSeller": true,
+      "isFeatured": true,
+      "createdAt": "2026-05-15T08:00:00Z"
+    },
+    {
+      "id": "prod_2",
+      "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "description": "Our industry-leading noise canceling technology takes its biggest step forward. With four microphones on each earcup, ambient sound is captured even more accurately for a dramatic reduction in high frequency noise. Thanks to Auto NC Optimizer, noise canceling performance is automatically optimized based on wearing conditions and external environmental factors like atmospheric pressure.",
+      "price": 398,
+      "category": "Electronics",
+      "brand": "Sony",
+      "stock": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.6,
+        "count": 85
+      },
+      "reviews": [
+        {
+          "id": "rev_2_1",
+          "userId": "user_mock_1",
+          "userName": "David Miller",
+          "rating": 5,
+          "comment": "Active Noise Cancelling is top tier. Extremely comfortable even during long sessions.",
+          "createdAt": "2026-05-18T11:20:00Z"
+        },
+        {
+          "id": "rev_2_2",
+          "userId": "user_mock_3",
+          "userName": "Jane Doe",
+          "rating": 4,
+          "comment": "Sounds magnificent. The cases are a bit bulky compared to the XM4 though.",
+          "createdAt": "2026-05-19T09:15:00Z"
+        }
+      ],
+      "specifications": {
+        "Driver Unit": "30mm",
+        "Battery Life": "Up to 30 hours",
+        "Bluetooth Version": "5.2",
+        "Charging Time": "Quick charge (3 min for 3 hours playback)",
+        "Weight": "250g"
+      },
+      "isBestSeller": true,
+      "isFeatured": false,
+      "createdAt": "2026-05-10T12:00:00Z"
+    },
+    {
+      "id": "prod_3",
+      "title": "Nike Air Max 270 (Running Shoes, Stealth Black)",
+      "description": "Meet Nike's first lifestyle Air Max — designed to look and feel great anywhere. It delivers a super-soft ride and casual elegance with its huge heel window and array of sporty colors. The breathable woven fabric upper gives lightweight support, and the dual-density foam midsole provides plush, energized cushioning.",
+      "price": 150,
+      "category": "Fashion",
+      "brand": "Nike",
+      "stock": 120,
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.7,
+        "count": 210
+      },
+      "reviews": [
+        {
+          "id": "rev_3_1",
+          "userId": "user_mock_2",
+          "userName": "Emily Watson",
+          "rating": 5,
+          "comment": "Super comfortable for walks and jogging. Fits true to size and looks sleek.",
+          "createdAt": "2026-05-24T08:45:00Z"
+        }
+      ],
+      "specifications": {
+        "Style": "AH8050-002",
+        "Material": "Woven and synthetic upper",
+        "Technology": "Large volume heel Max Air unit",
+        "Origin": "Imported",
+        "Recommended Use": "Lifestyle / Athleisure"
+      },
+      "isBestSeller": false,
+      "isFeatured": true,
+      "createdAt": "2026-05-12T07:22:00Z"
+    },
+    {
+      "id": "prod_4",
+      "title": "Instant Pot Duo 7-in-1 Multi-Cooker (6 Quart)",
+      "description": "The Instant Pot Duo has been simplified with an easy-to-use control panel, customized presets, and a premium tri-ply stainless steel cooking pot. Enjoy 13 smart programs for single-touch slow cooking, pressure cooking, steaming, and more. It is designed to cook delicious, healthy meals up to 70% faster.",
+      "price": 99,
+      "category": "Home & Kitchen",
+      "brand": "Instant Pot",
+      "stock": 80,
+      "images": [
+        "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544233726-9f1d2b27be8b?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.5,
+        "count": 140
+      },
+      "reviews": [
+        {
+          "id": "rev_4_1",
+          "userId": "user_mock_3",
+          "userName": "Robert Thompson",
+          "rating": 5,
+          "comment": "A complete game changer in the kitchen! Made perfect pulled pork in 45 minutes.",
+          "createdAt": "2026-05-21T18:10:00Z"
+        }
+      ],
+      "specifications": {
+        "Capacity": "6 Quarts",
+        "Core Functions": "7-in-1 customizable pressure/slow cooker",
+        "Material": "Food-grade stainless steel (18/8)",
+        "Safety": "10+ built-in safety features with Overheat Protection",
+        "Power": "1000W"
+      },
+      "isBestSeller": true,
+      "isFeatured": false,
+      "createdAt": "2026-05-08T15:30:00Z"
+    },
+    {
+      "id": "prod_5",
+      "title": "Logitech MX Master 3S Wireless Performance Mouse",
+      "description": "Logitech's premier ergonomic mouse is remade for productivity. It features ultra-quiet tactile clicks that give satisfying feedback with 90% less noise compared to its predecessor. Equipped with an 8000 DPI optical sensor that tracks anywhere — even on glass — and the iconic MagSpeed electromagnetic scroll wheel.",
+      "price": 99,
+      "category": "Electronics",
+      "brand": "Logitech",
+      "stock": 60,
+      "images": [
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.9,
+        "count": 350
+      },
+      "reviews": [
+        {
+          "id": "rev_5_1",
+          "userId": "user_mock_1",
+          "userName": "Chris Evans",
+          "rating": 5,
+          "comment": "Best mouse ever constructed. Scrolling feels like magic, and hand fatigue is completely gone.",
+          "createdAt": "2026-05-25T11:00:00Z"
+        }
+      ],
+      "specifications": {
+        "Sensor Technology": "Darkfield high precision",
+        "Nominal Value": "1000 DPI (settable from 200 to 8000)",
+        "Buttons": "7 buttons (Left/Right-click, Back/Forward, App-Switch, Wheel mode-shift, Middle click)",
+        "Battery": "Rechargeable Li-Po (500 mAh); up to 70 days on full charge",
+        "Compatibility": "Bluetooth Low Energy & Logi Bolt"
+      },
+      "isBestSeller": true,
+      "isFeatured": true,
+      "createdAt": "2026-05-14T09:40:00Z"
+    },
+    {
+      "id": "prod_6",
+      "title": "Adidas Originals Essential Trefoil Hoodie",
+      "description": "This classic streetwear staple is made of heavyweight French terry for maximum cozy warmth. Centered with the authentic Adidas embroidered Trefoil logo on the chest. Designed with a roomy kangaroo pouch pocket, ribbing on the collar/hem, and an adjustable drawcord crossover hood.",
+      "price": 75,
+      "category": "Fashion",
+      "brand": "Adidas",
+      "stock": 95,
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.4,
+        "count": 58
+      },
+      "reviews": [
+        {
+          "id": "rev_6_1",
+          "userId": "user_mock_2",
+          "userName": "Liam O'connor",
+          "rating": 4,
+          "comment": "Thick fabric, sits very well. Slightly larger fit but super comfortable.",
+          "createdAt": "2026-05-23T16:20:00Z"
+        }
+      ],
+      "specifications": {
+        "Fabric": "100% French Terry cotton",
+        "Fit": "Regular relaxed fit",
+        "Care": "Machine wash cold delicate cycle",
+        "Kangaroo Pocket": "Front center compartment"
+      },
+      "isBestSeller": false,
+      "isFeatured": false,
+      "createdAt": "2026-05-20T10:15:00Z"
+    },
+    {
+      "id": "prod_7",
+      "title": "Bose Smart Soundbar 600 with Dolby Atmos",
+      "description": "For movies, TV, and music, this smart soundbar delivers shockingly immersive audio for its size. Featuring vertical firing transducers to accurately project dialogue, action events, and soundscapes overhead, bringing true Dolby Atmos performance right into your living room space.",
+      "price": 499,
+      "category": "Electronics",
+      "brand": "Bose",
+      "stock": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1608248597481-496100c8c836?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.5,
+        "count": 42
+      },
+      "reviews": [
+        {
+          "id": "rev_7_1",
+          "userId": "user_mock_3",
+          "userName": "Patricia Moore",
+          "rating": 5,
+          "comment": "Dolby Atmos effects are very noticeable. Setup with HDMI eARC is flawless.",
+          "createdAt": "2026-05-26T20:30:00Z"
+        }
+      ],
+      "specifications": {
+        "Audio Formats": "Dolby Atmos, Dolby Digital, Dolby Digital Plus",
+        "Connectivity": "HDMI eARC, Optical, Bluetooth, Wi-Fi, Apple AirPlay 2",
+        "Smart Voice Support": "Amazon Alexa Built-in & Works with Google Home",
+        "Dimensions": "2.2\" H x 27.3\" W x 4.1\" D"
+      },
+      "isBestSeller": false,
+      "isFeatured": true,
+      "createdAt": "2026-05-18T13:40:00Z"
+    },
+    {
+      "id": "prod_8",
+      "title": "The Alchemist by Paulo Coelho (Anniversary Paperback)",
+      "description": "Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different — and far more satisfying — than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts.",
+      "price": 15,
+      "category": "Books",
+      "brand": "HarperOne",
+      "stock": 200,
+      "images": [
+        "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=600&auto=format&fit=crop"
+      ],
+      "rating": {
+        "average": 4.8,
+        "count": 680
+      },
+      "reviews": [
+        {
+          "id": "rev_8_1",
+          "userId": "user_mock_1",
+          "userName": "Booklover99",
+          "rating": 5,
+          "comment": "Deeply inspirational, a book to read over and over again.",
+          "createdAt": "2026-05-15T09:00:00Z"
+        }
+      ],
+      "specifications": {
+        "Publisher": "HarperOne (Spl. 25th Anniversary Edition)",
+        "Language": "English",
+        "Length": "163 pages",
+        "Dimensions": "5.3\" x 0.4\" x 8.0\"",
+        "Format": "Paperback"
+      },
+      "isBestSeller": true,
+      "isFeatured": false,
+      "createdAt": "2026-05-01T04:00:00Z"
+    }
+  ],
+  "orders": [],
+  "carts": {},
+  "wishlists": {},
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minPurchase": 50,
+      "expiryDate": "2027-12-31",
+      "isActive": true,
+      "description": "10% OFF on purchases above $50"
+    },
+    {
+      "code": "SUPERDEAL",
+      "discountType": "fixed",
+      "discountValue": 25,
+      "minPurchase": 150,
+      "expiryDate": "2027-12-31",
+      "isActive": true,
+      "description": "Flat $25 OFF on orders of $150 or more"
+    },
+    {
+      "code": "FESTIVE20",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minPurchase": 100,
+      "expiryDate": "2027-12-31",
+      "isActive": true,
+      "description": "Festive Special: 20% OFF on orders above $100"
+    }
+  ],
+  "recentlyViewed": {}
+}

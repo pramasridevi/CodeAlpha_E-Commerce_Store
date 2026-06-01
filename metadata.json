@@ -1,0 +1,6 @@
+{
+  "name": "E-Commerce Web Application",
+  "description": "Full-stack e-commerce marketplace platform inspired by Amazon and Flipkart, featuring JWT authentication, product catalog, cart, wishlist, admin controls, checkout, order management, and responsive styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
